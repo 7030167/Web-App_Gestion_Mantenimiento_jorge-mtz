@@ -84,7 +84,7 @@ CREATE TABLE usuarios (
     rol ENUM('operador', 'supervisor', 'tecnico'),
     correo VARCHAR(100),
     contraseña VARCHAR(100)
-);
+    );
 
 ### - Anomalías
 
@@ -95,7 +95,7 @@ CREATE TABLE anomalias (
     fecha DATE,
     id_usuario INT,
     FOREIGN KEY (id_usuario) REFERENCES usuarios(id)
-);
+    );
 
 ### - Tareas
 
@@ -107,7 +107,7 @@ CREATE TABLE tareas (
     fecha_programada DATE,
     id_anomalia INT,
     FOREIGN KEY (id_anomalia) REFERENCES anomalias(id)
-);
+    );
 
   
 4. Actualiza la clase Conexion.java con los datos correctos de tu base de datos.
