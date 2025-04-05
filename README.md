@@ -79,7 +79,8 @@ USE gestion_mantenimiento;
 
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(100),
+    
+    nombre VARCHAR(100), 
     rol ENUM('operador', 'supervisor', 'tecnico'),
     correo VARCHAR(100),
     contraseña VARCHAR(100)
@@ -89,6 +90,7 @@ CREATE TABLE usuarios (
 
 CREATE TABLE anomalias (
     id INT AUTO_INCREMENT PRIMARY KEY,
+    
     descripcion TEXT,
     fecha DATE,
     id_usuario INT,
@@ -99,6 +101,7 @@ CREATE TABLE anomalias (
 
 CREATE TABLE tareas (
     id INT AUTO_INCREMENT PRIMARY KEY,
+    
     descripcion TEXT,
     estado VARCHAR(50),
     fecha_programada DATE,
@@ -109,6 +112,7 @@ CREATE TABLE tareas (
   
 4. Actualiza la clase Conexion.java con los datos correctos de tu base de datos.
 6. Ejecuta el proyecto y accede a http://localhost:8080/gestion-mantenimiento.  
+
 
 
 ## 🧑‍💻 Equipo de Desarrollo
