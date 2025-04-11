@@ -154,7 +154,7 @@ A continuación, se detallan las funcionalidades que se planean implementar en f
 
 > ⚠️ Las fechas de implementación serán definidas según prioridades del área de mantenimiento y feedback recibido.
 
-
+      
 
 ## 🧑‍💻 Equipo de Desarrollo
 Nombre: Jorge Armando Martínez Ponce
