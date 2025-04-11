@@ -118,7 +118,7 @@ CREATE TABLE tareas (
 
 
 
-### 📋 Historias de Usuario
+## 📋 Historias de Usuario
 
 HU-01: Como operador, quiero registrar anomalías para que el mantenimiento pueda atenderlas.
 
