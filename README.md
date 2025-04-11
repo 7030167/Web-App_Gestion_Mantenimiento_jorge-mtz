@@ -1,6 +1,6 @@
 # 🛠️ Web App de Gestión de Mantenimiento
 
-Este proyecto es una aplicación web desarrollada en Java (Servlets y JSP) con el objetivo de **gestionar tareas de mantenimiento en una línea de producción**, permitiendo registrar anomalías, programar mantenimientos, y asignar tareas al personal técnico.
+Esta aplicación web permite a operadores, supervisores y técnicos registrar, programar y dar seguimiento a las tareas de mantenimiento en las líneas de producción. Su propósito es mejorar la eficiencia del área de mantenimiento, evitando pérdidas de tiempo y permitiendo un registro detallado de anomalías y correcciones.
 
 ## 📌 Tabla de Contenidos
 
