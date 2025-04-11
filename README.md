@@ -9,6 +9,7 @@ Este proyecto es una aplicación web desarrollada en Java (Servlets y JSP) con e
 - [📁 Estructura del Proyecto](#-estructura-del-proyecto)
 - [🧩 Funcionalidades Principales](#-funcionalidades-principales)
 - [📦 Instalación y Ejecución](#-instalación-y-ejecución)
+- [📋 Historias de Usuario](#-historias-de-usuario)
 - [🧑‍💻 Equipo de Desarrollo](#-equipo-de-desarrollo)
 
 ---
@@ -37,6 +38,8 @@ Actualmente, el área de mantenimiento enfrenta problemas para organizar y ejecu
 ---
 
 ## 📁 Estructura del Proyecto
+
+
 
 
 ---
@@ -112,6 +115,19 @@ CREATE TABLE tareas (
   
 4. Actualiza la clase Conexion.java con los datos correctos de tu base de datos.
 6. Ejecuta el proyecto y accede a http://localhost:8080/gestion-mantenimiento.  
+
+
+
+### 📋 Historias de Usuario
+
+HU-01: Como operador, quiero registrar anomalías para que el mantenimiento pueda atenderlas.
+
+HU-02: Como técnico, quiero visualizar las tareas programadas para organizar mi trabajo.
+
+HU-03: Como supervisor, quiero consultar el historial para evaluar incidencias recurrentes.
+
+HU-04: Como sistema, quiero autenticar usuarios y filtrar accesos según su rol.
+
 
 
 
