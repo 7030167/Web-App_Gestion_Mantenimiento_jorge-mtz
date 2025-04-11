@@ -10,6 +10,7 @@ Este proyecto es una aplicación web desarrollada en Java (Servlets y JSP) con e
 - [🧩 Funcionalidades Principales](#-funcionalidades-principales)
 - [📦 Instalación y Ejecución](#-instalación-y-ejecución)
 - [📋 Historias de Usuario](#-historias-de-usuario)
+- 📅 Roadmap
 - [🧑‍💻 Equipo de Desarrollo](#-equipo-de-desarrollo)
 
 ---
@@ -128,6 +129,30 @@ HU-03: Como supervisor, quiero consultar el historial para evaluar incidencias r
 
 HU-04: Como sistema, quiero autenticar usuarios y filtrar accesos según su rol.
 
+## 📅 Roadmap
+
+A continuación, se detallan las funcionalidades que se planean implementar en futuras versiones del sistema:
+
+
+
+| Versión | Requerimiento                                                       | Estado         | Etiqueta Scrum |
+|---------|----------------------------------------------------------------------|----------------|-----------------|
+| 1.0     | Registro de anomalías por parte de operadores y supervisores        | ✅ Completado  | Done            |
+| 1.0     | Visualización y programación de tareas de mantenimiento             | ✅ Completado  | Done            |
+| 1.0     | Autenticación y gestión de roles (técnico, operador, supervisor)    | ✅ Completado  | Done            |
+| 1.1     | Generación de reportes en formato PDF y Excel                       | 🕒 En desarrollo | In progress     |
+| 1.1     | Filtros avanzados: por fecha, línea, severidad de anomalía          | 🕒 En desarrollo | In progress     |
+| 1.2     | Panel de estadísticas y gráficas con indicadores de desempeño       | ⏳ Planeado     | To do           |
+| 1.2     | Notificaciones automáticas por email para tareas asignadas          | ⏳ Planeado     | To do           |
+| 1.3     | Soporte multilingüe (Español e Inglés)                              | ⏳ Planeado     | Backlog         |
+| 1.3     | Búsqueda inteligente de anomalías por palabra clave                 | ⏳ Planeado     | Backlog         |
+| 1.4     | Aplicación móvil (Android/iOS) para técnicos de mantenimiento       | ⏳ Planeado     | Backlog         |
+| 1.4     | Integración con sensores IoT para detección temprana de fallas      | ⏳ Planeado     | Backlog         |
+| 1.5     | Exportación de bitácoras de mantenimiento al sistema de auditoría   | ⏳ Planeado     | Backlog         |
+| 1.5     | Firma digital de conformidad del supervisor en cierre de tareas     | ⏳ Planeado     | Backlog         |
+
+
+> ⚠️ Las fechas de implementación serán definidas según prioridades del área de mantenimiento y feedback recibido.
 
 
 
@@ -137,3 +162,5 @@ Nombre: Jorge Armando Martínez Ponce
 Rol: Desarrollador Full Stack / Scrum Master
 
 Proyecto Escolar: Desarrollo Web con Java - 2025
+
+
